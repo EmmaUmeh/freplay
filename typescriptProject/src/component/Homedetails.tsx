@@ -1,5 +1,11 @@
 
 import {FiXSquare} from "react-icons/fi"
+
+const Detailsholder = {
+    payment:"Your payment request has been approved",
+    seedetails:"See Details",
+    greetUser:"Good morning, Emmanuel",
+}
 const Homedetails = () => {
     return(
         <>
@@ -10,7 +16,7 @@ const Homedetails = () => {
             <div className="notificationcancel">
         <div className="paymenttxt">
         <h4>
-        Your payment request has been approved
+        {Detailsholder.payment}
         </h4>
         </div>
 
@@ -22,7 +28,7 @@ const Homedetails = () => {
         </div>
 
         <div className="seedetails">
-            <span>See Details</span>
+            <span>{Detailsholder.seedetails}</span>
         </div>
 
         <div className="canceldtl">
@@ -34,7 +40,7 @@ const Homedetails = () => {
 
 
         <div className="greettime">
-            <h3>Good morning, Emmanuel</h3>
+            <h3>{Detailsholder.greetUser}</h3>
         </div>
             </div>
           
