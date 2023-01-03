@@ -1,0 +1,175 @@
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  background-color: #EAF4F4;
+
+}
+img{
+  width: 100%;
+  pointer-events: none;
+}
+.navContent{
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px 3px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  position: fixed;
+  padding: 5px 5px 15px 5px;
+
+}
+
+.navChild{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: center; */
+}
+.logo{
+  width: 13%;
+}
+.notifyicon{
+  /* width: 5%; */
+  font-size: 20px;
+  margin-top:10px;
+}
+.userimg{
+  width: 15%;
+  margin-right: 10px;
+}
+.navdetails{
+  display: flex;
+  grid-gap: 30px;
+}
+.navdetailstwo{
+  display: flex;
+  margin-top:10px;
+}
+.userdetails{
+line-height: 1px;
+}
+.userdetails h3{
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+.userdetails span{
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+}
+.menubtn{
+  cursor: pointer;
+  display: none;
+}
+
+/* SideBar */
+.sidebarcontent{
+  padding-top: 100px;
+position: fixed;
+width: 20%;
+height: 100%;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+.companyratechild{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.company{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #000000;
+}
+.volume{
+  width: 80%;
+height: 10px;
+background: #F1F1F1;
+border-radius: 40px;
+margin-bottom: 40px;
+}
+.volumeinside{
+  width:60%;
+height: 10px;
+background: #FFBA08;
+border-radius: 40px;
+}
+.home{
+  margin-bottom: 30px;
+
+}
+.link{
+  text-decoration: none;
+
+}
+.new-member{
+  margin-bottom: 30px;
+}
+.payroll{
+  margin-bottom: 30px;
+}
+.company{
+  margin-bottom: 30px;
+}
+
+.schedule{
+  margin-bottom: 10px;
+}
+.companydtl{
+margin-top: 30px;
+}
+.spanhome{
+  margin-left: 10px;
+  color: #000000;
+}
+
+.homedetailscont{
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.notificationcancel{
+  padding: 5px 8px 5px 8px;
+  position: absolute;
+  width: 60%;
+  /* padding-right: 500px; */
+  left: 400px;
+  /* top: 123px; */
+  background: #D1E9E9;
+}
+.paymentime{
+  display: flex;
+  justify-content: space-between;
+}
+.paymenttxt{
+  margin-bottom: 20px;
+}
+.canceldtl{
+ display: flex;
+ justify-content: center;
+ margin-top: -30px;
+}
+.seedetails{
+  text-decoration: underline;
+  color: #0D42A9;
+  font-weight: 600;
+  
+}
+.greettime{
+  position: relative;
+  top: 90px;
+}
