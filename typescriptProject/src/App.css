@@ -1,6 +1,4 @@
 
-
-
 *{
   padding: 0;
   margin: 0;
@@ -136,18 +134,19 @@ margin-top: 30px;
 }
 
 .homedetailscont{
-  position: relative;
-  top: 150px;
+  /* position: relative;
+  top: 150px; */
+  padding-top: 120px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 .notificationcancel{
-  padding: 5px 8px 5px 8px;
-  position: absolute;
+  padding: 8px 8px 8px 8px;
+position: relative;
   width: 60%;
-  /* padding-right: 500px; */
-  left: 400px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
   /* top: 123px; */
   background: #D1E9E9;
 }
@@ -170,6 +169,174 @@ margin-top: 30px;
   
 }
 .greettime{
-  position: relative;
-  top: 90px;
+  margin-top: 130px;
+  margin-left: 190px;
+ 
+}
+.contentholder{
+  display: flex;
+background: #FFFFFF;
+border-radius: 15px;
+width: 50%;
+margin: 10px;
+padding: 10px;
+}
+.contentimg{
+  width: 18%;
+  display: flex;
+  align-items: center;
+}
+.contentcontainer{
+  display: flex;
+  align-items: center;
+}
+.detailsubchild{
+  margin-left: 20px;
+}
+.detailsubchild h5{
+  /* font-weight: 600; */
+/* font-size: 20px; */
+color: #000000;
+}
+.actioncont{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.actioncontainer{
+background: #FFFFFF;
+border-radius: 10px;
+padding: 10px 60px 5px 10px;
+margin-bottom: 25px;
+width: 80%;
+}
+.actionimg{
+  width: 12%;
+}
+.actionchild{
+  display: flex;
+align-items: center;
+}
+.payrolltxt{
+  margin-left: 20px;
+}
+.actionchildcont{
+  display: flex;
+}
+.calendar{
+  width: 40%;
+}
+.calendercont{
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 30px 3px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width:480px) {
+  .menubtn{
+    display: block;
+  }
+  .logo{
+    width: 40%;
+  }
+  .sidebarcontent{
+    display: none;
+  }
+  .paymentime{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .contentcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 0px;
+  }
+  .notificationcancel{
+    position: relative;
+    left: 0;
+    top: 20px;
+    padding: 3px 10px 3px 5px;
+    width: 100%;
+  }
+  .paymenttxt h4{
+    width: 90%;
+  }
+  .canceldtl{
+position: relative;
+top: -135px;
+display: flex;
+justify-content: flex-end;
+  }
+  .notifyicon{
+    display: none;
+  }
+  .userdetails{
+    display: none;
+  }
+  .userimg{
+    display: none;
+  }
+  .greettime{
+    margin-left: 0px;
+   
+  }
+  .greettime h3{
+    width: 60%;
+  }
+  .greettime p{
+    width: 70%;
+  }
+  .actionchildcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.actionmediaflex{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+  .calendar{
+    width: 90%;
+  }
+  .contentholder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+  }
+  .actionchild{
+    display: flex;
+ 
+  }
+  .payrolltxt p{
+    width: 100%;
+  }
+  .detailsubchild p{
+    width: 90%;
+  }
+  .actionchild{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  }
+  .actionimg{
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  .contentimg{
+    width: 25%;
+    margin-bottom: 10px;
+  }
+  .contentholder h5{
+    display: flex;
+    align-items: center;
+ justify-content: center;
+  }
 }

@@ -4,7 +4,7 @@ import Homedetails from '../component/Homedetails';
 
 
 
-const Home = () => {
+const Schedule = () => {
     return(
         <div>
         
@@ -14,4 +14,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Schedule;

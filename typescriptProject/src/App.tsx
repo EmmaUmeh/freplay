@@ -3,6 +3,11 @@ import NavbarComponent from './component/NavbarContainer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './routerpages/Home';
 import NewMember from './routerpages/NewMember';
+import Payroll from './routerpages/Payroll';
+import CompanyStaff from './routerpages/CompanyStaff';
+import Schedule from './routerpages/Schedule';
+import CompanyDetails from './routerpages/CompanyDetails';
+
 // import SideBar from './component/SideBar';
 
 
@@ -22,6 +27,11 @@ function App() {
         <Routes>
          <Route path="/" element={<Home />} />
           <Route path="/newmember" element={ <NewMember />}></Route>
+          <Route path="/payroll" element={ <Payroll />}></Route>
+          <Route path="/companystaff" element={ <CompanyStaff />}></Route>
+          <Route path="/schedule" element={ <Schedule />}></Route>
+          <Route path="/companydetails" element={ <CompanyDetails />}></Route>
+         
         </Routes>
     </Router>
   

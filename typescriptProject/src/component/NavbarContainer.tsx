@@ -17,45 +17,45 @@ const NavbarContainer = () => {
     <>
         <div className="navContent">
 
-                <Container>
-                    <div className="navChild">
-                    <div className="logo">
-                    <img src={NavList.imageUrl}/>
-                    </div>
+<Container>
+    <div className="navChild">
+    <div className="logo">
+    <img src={NavList.imageUrl}/>
+    </div>
 
-                <div className="navdetails">
+<div className="navdetails">
 
-                    <div className="notifyicon">
-                  
-                    <FiBell/>
-                    </div>
+    <div className="notifyicon">
+  
+    <FiBell/>
+    </div>
 
-                    <div className="navdetailstwo">
-                        <div className="userimg">
-                        <img src={NavList.userImageUrl}/>
-                        </div>
-                        <div className="userdetails">
-                        <h3>
-                            {NavList.userNamedetails}
-                        
-                        </h3>
-                        <span>{NavList.userdetailsOccupation}</span>
-                        </div>
-                    </div>
-
-                </div>
-
-                        <div className="menubtn" onClick={Clickhandle}>
-                       {
-                        clicktoggle ? <FiX size="30"/> :<FiMenu size="30"/>
-                       }
-                        </div>
-                    </div>
-
-                    
-                </Container>
-          
+    <div className="navdetailstwo">
+        <div className="userimg">
+        <img src={NavList.userImageUrl}/>
         </div>
+        <div className="userdetails">
+        <h3>
+            {NavList.userNamedetails}
+        
+        </h3>
+        <span>{NavList.userdetailsOccupation}</span>
+        </div>
+    </div>
+
+</div>
+
+        <div className="menubtn" onClick={Clickhandle}>
+       {
+        clicktoggle ? <FiX size="30"/> :<FiMenu size="30"/>
+       }
+        </div>
+    </div>
+
+    
+</Container>
+
+</div>
         
     </>
     )
